@@ -1,0 +1,17 @@
+.Input.invalid input {
+    color: red;
+    border: 3px solid red;
+}
+
+.Input input {
+    position: relative;
+} 
+
+.Input span {
+    position: absolute;
+    bottom: 25px;
+    left: 50px;
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+}

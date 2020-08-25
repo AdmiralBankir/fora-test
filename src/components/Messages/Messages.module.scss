@@ -1,0 +1,48 @@
+.Messages__list {
+    background-color: #ffffff;
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    list-style: none;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.Messages__list > li {
+    position: relative;
+}
+
+.Messages__list > li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.Messages__name {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.Messages__name,
+.Messages__time {
+    font-size: 11px;
+    color: var(--text-color);
+    opacity: 0.9;
+}
+
+.Messages__text {
+    background-color: var(--blue-var-color);
+    color: #ffffff;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+.Messages__time {
+    position: absolute;
+    right: 0;
+}
+
+.Messages {
+    width: calc(100% - 2 * 50px);
+    padding: 0 15px;
+    margin: 0 auto;
+    overflow: hidden
+}

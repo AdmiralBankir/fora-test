@@ -1,0 +1,25 @@
+.MainScreen {
+    background-color: var(--substrate-color);
+}
+
+.MainScreen__container {
+    width: calc(100% - 2*50px);
+    min-width: 320px;
+    margin: 0 auto; 
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 150px auto;
+    max-width: 900px;
+}
+
+.MainScreen__chat {
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    background-color: #ffffff;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.MainScreen__chatHidden{
+    display: none;
+}

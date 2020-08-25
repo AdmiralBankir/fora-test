@@ -1,0 +1,68 @@
+.Title {
+    background-color: var(--blue-var-color);
+    position: relative;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 1fr 1fr;
+}
+
+.Title h2 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+.Title ul {
+    margin: 0;
+    padding: 20px 0;
+    list-style: none;
+    position: absolute;
+    top: 33px;
+    left: 0;
+    width: 100%;
+    background-color: var(--ocean-blue);
+    z-index: 33;
+
+    & li {
+        text-align: center;
+        color: #ffffff;
+    }
+
+    & li:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+.Title__btnInvite{
+    & svg {
+        fill: #ffffff;
+    }
+}
+
+.Title__btnMembers {
+    color: #ffffff;
+}
+
+.Title button {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in
+}
+
+.Title button:hover {
+    opacity: 0.3;
+}
+
+.Title button:focus-visible {
+    outline: 1px solid var(--ocean-blue);
+}
+
+.Title__btnWrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,8 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Запуск проекта
+Результат сборки проекта хранится в директории /build.
+
+### `node server`
+Запуск локального сервера по адресу  [http://localhost:8000] (http://localhost:8000)
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm run server`
+
+Выполняет сборку проекта и запуск локального сервера по адресу [http://localhost:8000] (http://localhost:8000)
 
 ### `npm start`
 

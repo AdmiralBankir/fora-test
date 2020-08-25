@@ -1,0 +1,57 @@
+.InviteForm {
+    position: absolute;
+    z-index: 22;
+    top: 50%;
+    left: calc(50% + 50px);
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    max-width: 500px;
+    padding: 50px;
+    background: var(--ocean-blue);
+    display: none;
+    justify-content: space-between;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.none {
+    display: none;
+}
+
+.InviteForm__input,
+.InviteForm__sendBtn {
+    height: 30px;
+}
+
+.InviteForm div {
+    flex-grow: 1;
+}
+
+.InviteForm__input {
+    width: calc(100% - 10px);
+}
+
+.InviteForm__sendBtn,
+.InviteForm__closeBtn {
+    display: block;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in;
+}
+
+.InviteForm__sendBtn:hover,
+.InviteForm__closeBtn:hover {
+    opacity: 0.3;
+}
+
+.InviteForm__closeBtn {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(100%, -20px);
+    z-index: 3333;
+
+    & svg {
+        fill: var(--sear-blue);
+    }
+}
